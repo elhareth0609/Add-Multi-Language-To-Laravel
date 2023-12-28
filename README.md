@@ -32,12 +32,9 @@ class LanguageController extends Controller
 }
 ```
 
-#### Next, create a new config "languages". You can use this command : 
-```bash
-php artisan make:config languages
-```
+#### Next, create a new config "languages" : 
 
-go to 'config\languages.php' and put this code there :
+go to '\config' and create new file with name "languages.php" then put this code there :
 ```php
 <?php
 
